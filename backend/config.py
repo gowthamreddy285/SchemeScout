@@ -17,8 +17,12 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 
 # Retrieval Settings
-TOP_K_RETRIEVAL = 25
-TOP_K_RERANK = 15
+TOP_K_RETRIEVAL = 10
+TOP_K_RERANK = 3
 
 # Generation Settings
-GROQ_MODEL = "llama3-70b-8192"
+GROQ_MODEL = "llama-3.3-70b-versatile"
+
+# Model Configuration
+EMBEDDING_MODEL_NAME = "BAAI/bge-small-en-v1.5"
+RERANKER_MODEL_NAME = "BAAI/bge-reranker-base"

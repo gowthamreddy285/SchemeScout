@@ -6,15 +6,13 @@ from langchain_community.retrievers import BM25Retriever
 from sentence_transformers import CrossEncoder
 from config import *
 
-# Updated Models for Policy Intelligence
-POLICY_EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5"
-POLICY_RERANKER_MODEL = "BAAI/bge-reranker-base"
+# Models are loaded from config.py
 
 class CitizenRetrievalEngine:
     def __init__(self):
         print(f"Loading Vector DB from {CHROMA_DB_DIR}")
         self.embeddings = HuggingFaceEmbeddings(
-            model_name=POLICY_EMBEDDING_MODEL,
+            model_name=EMBEDDING_MODEL_NAME,
             model_kwargs={'device': 'cpu'},
             encode_kwargs={'normalize_embeddings': True}
         )
@@ -25,8 +23,8 @@ class CitizenRetrievalEngine:
         )
         
         # Initialize Reranker
-        print(f"Loading Reranker: {POLICY_RERANKER_MODEL}")
-        self.reranker = CrossEncoder(POLICY_RERANKER_MODEL)
+        print(f"Loading Reranker: {RERANKER_MODEL_NAME}")
+        self.reranker = CrossEncoder(RERANKER_MODEL_NAME)
         
         # BM25 will be initialized on demand or during startup if docs are available
         self.bm25_retriever = None

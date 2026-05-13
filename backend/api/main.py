@@ -23,33 +23,36 @@ from generation.generator import PolicyGenerator
 
 # ── App ──────────────────────────────────────────────────────────────────────
 
-app = FastAPI(
-    title="Policy Intelligence API",
-    description="RAG-powered Indian Government Scheme Query System",
-    version="1.0.0"
-)
+from contextlib import asynccontextmanager
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],       # tighten in production
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+# Singletons
+retrieval_engine = None
+generator = None
 
-# ── Singletons (loaded once at startup) ──────────────────────────────────────
-
-retrieval_engine: CitizenRetrievalEngine = None
-generator: PolicyGenerator = None
-
-@app.on_event("startup")
-async def startup_event():
+@asynccontextmanager
+async def lifespan(app: FastAPI):
     global retrieval_engine, generator
     print("Loading retrieval engine...")
     retrieval_engine = CitizenRetrievalEngine()
     print("Loading generator...")
     generator = PolicyGenerator()
     print("API ready.")
+    yield
+
+app = FastAPI(
+    title="Policy Intelligence API",
+    description="RAG-powered Indian Government Scheme Query System",
+    version="1.0.0",
+    lifespan=lifespan
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # ── Request / Response Models ─────────────────────────────────────────────────
 

@@ -8,7 +8,7 @@ Supports OpenAI (GPT-4o-mini) and Anthropic (Claude Haiku) via env vars.
 
 import os
 from typing import List, Dict, Any
-from config import OPENAI_API_KEY, ANTHROPIC_API_KEY, GROQ_API_KEY
+from config import OPENAI_API_KEY, ANTHROPIC_API_KEY, GROQ_API_KEY, GROQ_MODEL
 
 
 SYSTEM_PROMPT = """You are an expert, proactive Indian Government Policy Advisor.
@@ -65,6 +65,7 @@ class PolicyGenerator:
     def __init__(self):
         self.provider = None
         self.client = None
+        self.model = GROQ_MODEL
         self._initialize_client()
 
     def _initialize_client(self):
@@ -136,37 +137,49 @@ Answer (cite scheme names and ministry):"""
             return "[LLM not configured] Retrieved context is available but no answer was generated."
 
         if self.provider == "openai":
-            response = self.client.chat.completions.create(
-                model="gpt-4o-mini",
-                messages=[
-                    {"role": "system", "content": SYSTEM_PROMPT},
-                    {"role": "user", "content": user_message}
-                ],
-                temperature=0.1,
-                max_tokens=500
-            )
-            return response.choices[0].message.content
+            try:
+                response = self.client.chat.completions.create(
+                    model="gpt-4o-mini",
+                    messages=[
+                        {"role": "system", "content": SYSTEM_PROMPT},
+                        {"role": "user", "content": user_message}
+                    ],
+                    temperature=0.1,
+                    max_tokens=1500
+                )
+                return response.choices[0].message.content
+            except Exception as e:
+                print(f"OpenAI Error: {e}")
+                return "[Error] Generation failed. Here is the raw context for your reference:\n\n" + user_message[:500] + "..."
 
         elif self.provider == "anthropic":
-            response = self.client.messages.create(
-                model="claude-haiku-20240307",
-                max_tokens=500,
-                system=SYSTEM_PROMPT,
-                messages=[{"role": "user", "content": user_message}]
-            )
-            return response.content[0].text
+            try:
+                response = self.client.messages.create(
+                    model="claude-haiku-20240307",
+                    max_tokens=1500,
+                    system=SYSTEM_PROMPT,
+                    messages=[{"role": "user", "content": user_message}]
+                )
+                return response.content[0].text
+            except Exception as e:
+                print(f"Anthropic Error: {e}")
+                return "[Error] Generation failed. Please try again."
 
         elif self.provider == "groq":
-            response = self.client.chat.completions.create(
-                model="llama-3.3-70b-versatile",
-                messages=[
-                    {"role": "system", "content": SYSTEM_PROMPT},
-                    {"role": "user", "content": user_message}
-                ],
-                temperature=0.1,
-                max_tokens=500
-            )
-            return response.choices[0].message.content
+            try:
+                response = self.client.chat.completions.create(
+                    model=self.model,
+                    messages=[
+                        {"role": "system", "content": SYSTEM_PROMPT},
+                        {"role": "user", "content": user_message}
+                    ],
+                    temperature=0.1,
+                    max_tokens=1500
+                )
+                return response.choices[0].message.content
+            except Exception as e:
+                print(f"Groq Error: {e}")
+                return "[Error] Generation failed. Please try again."
 
         return "LLM provider not recognized."
 
