@@ -78,10 +78,10 @@ app.add_middleware(
 # ── Request / Response Models ─────────────────────────────────────────────────
 
 class QueryRequest(BaseModel):
-    query: str = Field(..., min_length=3, max_length=500, example="What are PMEGP benefits?")
+    query: str = Field(..., min_length=3, max_length=500, json_schema_extra={"examples": ["What are PMEGP benefits?"]})
     filters: Optional[Dict[str, Any]] = Field(
         default=None,
-        example={"ministry": "MSME", "state": "Karnataka", "section": "eligibility"}
+        json_schema_extra={"examples": [{"ministry": "MSME", "state": "Karnataka", "section": "eligibility"}]}
     )
 
 class Citation(BaseModel):
@@ -97,12 +97,12 @@ class QueryResponse(BaseModel):
     answer: str
     citations: List[Citation]
     chunks_used: int
-    provider: Optional[str]
+    provider: Optional[str] = None
 
 class HealthResponse(BaseModel):
     status: str
     db_documents: int
-    llm_provider: Optional[str]
+    llm_provider: Optional[str] = None
     embedding_model: str
 
 # ── Endpoints ─────────────────────────────────────────────────────────────────

@@ -6,8 +6,8 @@ All other modules import from here. Never hardcode these values elsewhere.
 import os
 from dotenv import load_dotenv
 
-# Load environment variables from the nearest .env file
-load_dotenv()
+# Load environment variables from the nearest .env file, overriding terminal cache
+load_dotenv(override=True)
 
 # ── Directory Paths ────────────────────────────────────────────────────────────
 BASE_DIR     = os.path.dirname(os.path.abspath(__file__))

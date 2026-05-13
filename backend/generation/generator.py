@@ -179,7 +179,7 @@ Answer (cite scheme names and ministry):"""
                 return response.choices[0].message.content
             except Exception as e:
                 print(f"Groq Error: {e}")
-                return "[Error] Generation failed. Please try again."
+                return f"[Error] Generation failed. Exact error from Groq: {e}"
 
         return "LLM provider not recognized."
 
