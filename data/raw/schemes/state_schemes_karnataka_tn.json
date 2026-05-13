@@ -1,0 +1,86 @@
+[
+  {
+    "text": "Karnataka ELEVATE & KAN (Karnataka Accelerator Network) Purpose: Support startups with grants for prototype development and scaling. Eligibility: Startups registered in Karnataka, < 10 years old, innovative/scalable models (DeepTech, AI, etc.). Benefits: Grants up to ₹50 lakh per startup, mentorship, incubation, and VC networking. KAN specifically supports growth-stage startups. Application: Online via Startup Karnataka portal (https://startup.karnataka.gov.in/).",
+    "metadata": {
+      "scheme_name": "ELEVATE / KAN",
+      "ministry": "Dept. of Electronics, IT, BT and S&T",
+      "state": "Karnataka",
+      "year": 2024,
+      "category": "Startup/Scaleup",
+      "beneficiary": "Karnataka Startups",
+      "source_url": "https://startup.karnataka.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "Karnataka Idea2PoC Grant Purpose: Support early-stage startups with funding to validate concepts (Proof of Concept). Eligibility: Early-stage startups in Karnataka; specific tracks for women (Elevate Women) and SC/ST founders (Elevate Unnati). Benefits: Grant-in-aid of ₹10–50 lakh for prototype/PoC stage. Application: Online via Startup Karnataka portal during open calls.",
+    "metadata": {
+      "scheme_name": "Idea2PoC",
+      "ministry": "Startup Karnataka",
+      "state": "Karnataka",
+      "year": 2024,
+      "category": "Startup/Seed",
+      "beneficiary": "Early-stage Entrepreneurs",
+      "source_url": "https://startup.karnataka.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "NEEDS (New Entrepreneur-cum-Enterprise Development Scheme) - Tamil Nadu Purpose: Assist first-generation entrepreneurs to set up new enterprises. Eligibility: Educated youth (degree/diploma/ITI) aged 21–35; first-generation entrepreneurs in Tamil Nadu. Benefits: 25% capital subsidy (up to ₹75 lakh) and 3% interest subvention on project cost. Application: Online via Tamil Nadu MSME/StartupTN portal (https://www.startuptn.in/).",
+    "metadata": {
+      "scheme_name": "NEEDS",
+      "ministry": "MSME Dept, Tamil Nadu",
+      "state": "Tamil Nadu",
+      "year": 2024,
+      "category": "Startup/Entrepreneurship",
+      "beneficiary": "First-gen Entrepreneurs",
+      "source_url": "https://www.startuptn.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "StartupTN Seed Grant Fund - Tamil Nadu Purpose: Provide targeted funding for early-stage ideas to develop into viable businesses. Eligibility: Early-stage startups registered with StartupTN and recognized incubators. Benefits: Direct seed grants to help with PoC and early commercialization. Application: Register via StartupTN portal (https://www.startuptn.in/).",
+    "metadata": {
+      "scheme_name": "StartupTN Seed Grant",
+      "ministry": "TANSIM / StartupTN",
+      "state": "Tamil Nadu",
+      "year": 2024,
+      "category": "Startup/Seed",
+      "beneficiary": "Tamil Nadu Startups",
+      "source_url": "https://www.startuptn.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "Tamil Nadu Micro Irrigation Project Purpose: Focus on water use efficiency via drip and sprinkler irrigation. Eligibility: Farmers in Tamil Nadu with Patta/Chitta land proof. Benefits: Up to 100% subsidy for small/marginal farmers and 75% for others to install micro-irrigation. Application: Via Uzhavan App or local District Agriculture Offices.",
+    "metadata": {
+      "scheme_name": "TN Micro Irrigation",
+      "ministry": "Agriculture & Farmers Welfare, Tamil Nadu",
+      "state": "Tamil Nadu",
+      "year": 2024,
+      "category": "Agriculture/Irrigation",
+      "beneficiary": "TN Farmers",
+      "source_url": "https://tn.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "Savayava Bhagya Scheme - Karnataka Purpose: Promote organic farming and reduce chemical dependency. Eligibility: Farmers in Karnataka registered on the FRUITS portal. Benefits: 90% subsidy for setting up organic farming units and certification support. Application: Register via Karnataka FRUITS portal (https://fruits.karnataka.gov.in/).",
+    "metadata": {
+      "scheme_name": "Savayava Bhagya",
+      "ministry": "Agriculture Dept, Karnataka",
+      "state": "Karnataka",
+      "year": 2024,
+      "category": "Agriculture/Organic",
+      "beneficiary": "Karnataka Farmers",
+      "source_url": "https://fruits.karnataka.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  }
+]

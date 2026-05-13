@@ -1,0 +1,72 @@
+[
+  {
+    "text": "MeitY SAMRIDH Scheme Purpose: Support growth-stage startups in software/IT through financial assistance and accelerator-based mentorship. Eligibility: DPIIT-recognized Indian startups in growth stage with a market-ready software product and revenue model. Benefits: Financial support up to ₹40 lakh (matched funding), structured acceleration, and investor connectivity. Application: Apply via MeitY-empanelled accelerators on the MeitY Startup Hub (https://meitystartuphub.in) portal.",
+    "metadata": {
+      "scheme_name": "SAMRIDH",
+      "ministry": "MeitY",
+      "state": "Central",
+      "year": 2024,
+      "category": "Startup",
+      "beneficiary": "IT Startups",
+      "source_url": "https://meitystartuphub.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "TIDE 2.0 (Technology Incubation and Development of Entrepreneurs) Purpose: Strengthen tech startups in societal sectors (Healthcare, Agriculture, FinTech) using AI, IoT, and Robotics. Eligibility: EiR (Undergraduates/Students with PoC) and Grants (Individuals/Startups with prototype). Benefits: EiR stipend up to ₹4 lakh/year; Grants up to ₹7 lakh/year. Access to co-working, labs, and mentorship. Application: Apply through recognized TIDE 2.0 incubation centers.",
+    "metadata": {
+      "scheme_name": "TIDE 2.0",
+      "ministry": "MeitY",
+      "state": "Central",
+      "year": 2024,
+      "category": "Startup/Tech",
+      "beneficiary": "Students, Tech Innovators",
+      "source_url": "https://meity.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "MAARG Portal (Mentorship, Advisory, Assistance, Resilience, and Growth) Purpose: National mentorship platform to connect startups with industry experts and investors. Eligibility: DPIIT-recognized startups across all sectors and stages. Benefits: Free access to 20,000+ mentors, AI-matchmaking, and support in fundraising, legal, and marketing. Application: Register on MAARG Portal (https://maarg.startupindia.gov.in) using Startup India credentials.",
+    "metadata": {
+      "scheme_name": "MAARG Portal",
+      "ministry": "DPIIT",
+      "state": "Central",
+      "year": 2024,
+      "category": "Startup/Mentorship",
+      "beneficiary": "DPIIT Startups",
+      "source_url": "https://maarg.startupindia.gov.in/",
+      "document_type": "portal_guide",
+      "section": "eligibility"
+    }
+  },
+  {
+    "text": "Biotechnology Ignition Grant (BIG) Purpose: Support early-stage biotech innovators to develop Proof of Concept (PoC). Eligibility: Indian citizens, startups, or researchers physically incubated in a recognized incubator. Benefits: Grant-in-aid up to ₹50 lakh for 18 months, mentorship, and IP support. Application: Online via BIRAC portal (https://www.birac.nic.in) during biannual national calls.",
+    "metadata": {
+      "scheme_name": "BIG Grant",
+      "ministry": "Ministry of Science and Technology (BIRAC)",
+      "state": "Central",
+      "year": 2024,
+      "category": "Startup/Biotech",
+      "beneficiary": "Biotech Innovators",
+      "source_url": "https://www.birac.nic.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "Electronics Development Fund (EDF) Purpose: Fund of Funds to participate in Daughter Funds providing risk capital to electronics and IT startups. Eligibility: Professionally managed Daughter Funds (Category I/II AIFs). Benefits: Indirect risk capital for startups to foster indigenous manufacturing and R&D in nano-electronics and IT. Application: Startups approach EDF-supported Daughter Funds (managed by CVCFL) for investment.",
+    "metadata": {
+      "scheme_name": "Electronics Development Fund (EDF)",
+      "ministry": "MeitY",
+      "state": "Central",
+      "year": 2024,
+      "category": "Startup/Electronics",
+      "beneficiary": "Electronics Startups",
+      "source_url": "https://meity.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  }
+]

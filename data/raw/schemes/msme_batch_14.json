@@ -1,0 +1,58 @@
+[
+  {
+    "text": "ASPIRE (A Scheme for Promotion of Innovation, Rural Industries, and Entrepreneurship) Purpose: Promote innovation and rural entrepreneurship via Livelihood Business Incubators (LBIs). Eligibility: Academic/Technical institutions, MSMEs, NGOs, and govt agencies. Benefits: Grants for setting up LBIs and Technology Business Incubators (TBIs) to support rural startups and skill development. Application: Submit project proposals to Office of DC (MSME) or regional MSME-DIs.",
+    "metadata": {
+      "scheme_name": "ASPIRE",
+      "ministry": "MSME",
+      "state": "Central",
+      "year": 2024,
+      "category": "MSME/Innovation",
+      "beneficiary": "Institutions, Rural Entrepreneurs",
+      "source_url": "https://aspire.msme.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "MSME Tool Rooms & Technology Centres Purpose: Provide precision tooling, product development, and industry-ready skill training. Eligibility: MSMEs requiring technical services and individuals (students/unemployed youth) seeking skill development. Benefits: Access to dies, moulds, fixtures, consultancy, and technical training from school dropout to M.Tech level. Application: Approach nearest Technology Centre directly for services; apply via Centre's website for training courses.",
+    "metadata": {
+      "scheme_name": "MSME Tool Rooms",
+      "ministry": "MSME",
+      "state": "Central",
+      "year": 2024,
+      "category": "MSME/Tech",
+      "beneficiary": "MSMEs, Students",
+      "source_url": "https://www.msmetdc.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "ESDP (Entrepreneurship and Skill Development Programme) Purpose: Foster entrepreneurial mindset and provide technical skills for business development. Eligibility: Individuals aged 18+ interested in self-employment; priority for SC/ST, women, PwD, and BPL. Benefits: Free or subsidized training modules (EAP, E-SDP, MDP) and support in business plan development. Application: Offline via nearest MSME-DI or Technology Centre; submit application with identity/educational docs.",
+    "metadata": {
+      "scheme_name": "ESDP",
+      "ministry": "MSME",
+      "state": "Central",
+      "year": 2024,
+      "category": "MSME/Training",
+      "beneficiary": "Aspiring Entrepreneurs",
+      "source_url": "https://www.myscheme.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "MSE-CDP (Micro and Small Enterprises Cluster Development Programme) Purpose: Enhance productivity and competitiveness via cluster-based interventions. Eligibility: Registered MSMEs operating within recognized industrial clusters via a Special Purpose Vehicle (SPV). Benefits: Govt grants for Common Facility Centres (CFCs) (testing/R&D) and infrastructure development (roads/power). Application: Identify cluster, form SPV, prepare DPR, and submit proposal through Ministry of MSME or State Nodal Agency.",
+    "metadata": {
+      "scheme_name": "MSE-CDP",
+      "ministry": "MSME",
+      "state": "Central",
+      "year": 2024,
+      "category": "MSME/Cluster",
+      "beneficiary": "Cluster Enterprises",
+      "source_url": "https://www.myscheme.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  }
+]

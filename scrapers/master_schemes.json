@@ -1,0 +1,28 @@
+{
+  "msme": [
+    "PMEGP", "CGTMSE", "PMMY (Mudra)", "CLCSS", "Udyam Registration", 
+    "Stand-Up India", "SFURTI", "ASPIRE", "National SC-ST Hub", "MSME Innovative", 
+    "ZED Certification", "MSME Samadhaan", "EPCG", "Coir Vikas Yojana", "MPDA", 
+    "Public Procurement Policy", "SMILE", "CGSSD", "International Cooperation", "PM Vishwakarma"
+  ],
+  "startup": [
+    "Startup India Initiative", "SISFS", "Fund of Funds (FFS)", "Credit Guarantee (CGSS)", "Atal Innovation Mission", 
+    "SAMRIDH", "TIDE 2.0", "MAARG Portal", "Biotechnology Ignition Grant", "Electronics Development Fund", 
+    "SIP-EIT", "Multiplier Grants", "Women Entrepreneurship Platform", "NewGen IEDC", "NIDHI", 
+    "STP Scheme", "Venture Capital Assistance", "Idea2PoC", "Smart India Hackathon", "Incubator Support"
+  ],
+  "student": [
+    "PM-USP", "PM-Vidyalaxmi", "National Scholarship Portal", "PMSSS", "Post-Matric SC", 
+    "Post-Matric ST", "Post-Matric OBC", "Post-Matric Minorities", "Pre-Matric Minorities", "Pre-Matric OBC", 
+    "SHREYAS", "Pragati Scholarship", "Saksham Scholarship", "NMMSS", "PM CARES for Children", 
+    "Beti Bachao Beti Padhao", "Secondary Education Incentives", "Top Class OBC/EBC", "Top Class SC", "National Fellowship ST", 
+    "Ishan Uday", "PG Single Girl Child", "PG Rank Holders", "NAPS", "PM-YASASVI"
+  ],
+  "agriculture": [
+    "PM-KISAN", "PMFBY", "PMKSY", "KCC", "PM-KMY", 
+    "Soil Health Card", "PKVY", "e-NAM", "AIF", "Pulses Mission", 
+    "PM Dhan Dhaanya", "Namo Drone Didi", "SMAM", "RKVY", "NFSM", 
+    "Modified Interest Subvention", "10,000 FPOs", "NBHM", "Rashtriya Gokul Mission", "MIS-PSS", 
+    "Ayushman Sahakar", "Krishi Kalyan Abhiyan", "National Bamboo Mission", "Rainfed Area Development", "Crop Residue Management"
+  ]
+}

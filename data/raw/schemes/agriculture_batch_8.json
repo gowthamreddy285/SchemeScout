@@ -1,0 +1,72 @@
+[
+  {
+    "text": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi) Purpose: Income support for landholding farmer families. Eligibility: Farmer families with cultivable land; excludes high-income earners and institutional landholders. Benefits: ₹6,000 per year in three installments of ₹2,000 via DBT. Application: Online via PM-KISAN portal (https://pmkisan.gov.in) or CSCs.",
+    "metadata": {
+      "scheme_name": "PM-KISAN",
+      "ministry": "Ministry of Agriculture & Farmers Welfare",
+      "state": "Central",
+      "year": 2024,
+      "category": "Agriculture/Income",
+      "beneficiary": "Landholding Farmers",
+      "source_url": "https://pmkisan.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "PMFBY (Pradhan Mantri Fasal Bima Yojana) Purpose: Comprehensive crop insurance against natural calamities, pests, and diseases. Eligibility: All farmers (including tenants/sharecroppers) growing notified crops in notified areas. Benefits: Financial stability through insurance coverage for crop loss. Application: Online via PMFBY portal (https://pmfby.gov.in) or banks/CSCs.",
+    "metadata": {
+      "scheme_name": "PMFBY",
+      "ministry": "Agriculture",
+      "state": "Central",
+      "year": 2024,
+      "category": "Agriculture/Insurance",
+      "beneficiary": "All Farmers",
+      "source_url": "https://pmfby.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "PMKSY (Pradhan Mantri Krishi Sinchayee Yojana) Purpose: Expand irrigation access and improve water use efficiency. Eligibility: Individual farmers, groups, SHGs, and cooperatives with land ownership or lease. Benefits: Subsidies for drip and sprinkler irrigation (Per Drop More Crop). Application: Online via state agriculture portals or offline at District/Block offices.",
+    "metadata": {
+      "scheme_name": "PMKSY",
+      "ministry": "Agriculture / Jal Shakti",
+      "state": "Central",
+      "year": 2024,
+      "category": "Agriculture/Irrigation",
+      "beneficiary": "Farmers, Cooperatives",
+      "source_url": "https://pmksy.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "PM-KMY (Pradhan Mantri Kisan Maan-Dhan Yojana) Purpose: Voluntary, contributory pension scheme for small and marginal farmers. Eligibility: Farmers aged 18-40 years with up to 2 hectares land; no other social security coverage. Benefits: Minimum fixed pension of ₹3,000/month after age 60. Application: Online via Maan-Dhan portal (https://maandhan.in) or CSCs.",
+    "metadata": {
+      "scheme_name": "PM-KMY",
+      "ministry": "Agriculture",
+      "state": "Central",
+      "year": 2024,
+      "category": "Agriculture/Pension",
+      "beneficiary": "Small & Marginal Farmers",
+      "source_url": "https://maandhan.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "Soil Health Card (SHC) Scheme Purpose: Report nutrient status of soil with management recommendations. Eligibility: All farmers across the country. Benefits: 12-parameter soil report with customized fertilizer recommendations to improve productivity. Application: Soil samples collected by state authorities; reports accessible via SHC portal (https://soilhealth.dac.gov.in) or CSCs.",
+    "metadata": {
+      "scheme_name": "Soil Health Card",
+      "ministry": "Agriculture",
+      "state": "Central",
+      "year": 2024,
+      "category": "Agriculture/Tech",
+      "beneficiary": "All Farmers",
+      "source_url": "https://soilhealth.dac.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  }
+]

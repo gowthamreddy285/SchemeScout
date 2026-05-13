@@ -1,0 +1,72 @@
+[
+  {
+    "text": "Women Entrepreneurship Platform (WEP) – NITI Aayog Purpose: Digital portal to support women entrepreneurs through mentorship, funding, and networking. Eligibility: Open to Indian women entrepreneurs and businesses with at least 51% women ownership. Benefits: Mentorship, funding access (loans/grants), skill development, legal/financial advice. Application: Register and create profile on official portal (https://wep.gov.in/) with business plan.",
+    "metadata": {
+      "scheme_name": "Women Entrepreneurship Platform (WEP)",
+      "ministry": "NITI Aayog",
+      "state": "Central",
+      "year": 2024,
+      "category": "Startup/Women",
+      "beneficiary": "Women Entrepreneurs",
+      "source_url": "https://wep.gov.in/",
+      "document_type": "portal_guide",
+      "section": "eligibility"
+    }
+  },
+  {
+    "text": "National Initiative for Developing and Harnessing Innovations (NIDHI) Purpose: DST umbrella program to nurture startups from idea to commercialization. Eligibility: Registered Indian startups with ≥ 51% Indian promoter shareholding; must be incubated at a DST-supported TBI for 3+ months. Benefits: Seed Support from ₹25 Lakhs to ₹100 Lakhs for prototyping, market entry, and commercialization. Application: Processed through DST-affiliated incubators; involves internal review and pitching.",
+    "metadata": {
+      "scheme_name": "NIDHI",
+      "ministry": "Ministry of Science & Technology (DST)",
+      "state": "Central",
+      "year": 2024,
+      "category": "Startup/Innovation",
+      "beneficiary": "Incubated Startups",
+      "source_url": "https://www.nidhi-pms.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "Software Technology Park (STP) Registration Purpose: Scheme under MeitY to promote software exports. Eligibility: Indian companies, subsidiaries, or branch offices of foreign companies in software/IT services exports. Benefits: Exemption from import duties, 100% foreign equity participation, and high-speed infrastructure access. Application: Prescribed form to nearest STPI center with MOA/AOA, PAN, and GSTIN.",
+    "metadata": {
+      "scheme_name": "STP Registration",
+      "ministry": "MeitY / STPI",
+      "state": "Central",
+      "year": 2024,
+      "category": "Startup/IT",
+      "beneficiary": "Software Exporters",
+      "source_url": "https://www.stpi.in/",
+      "document_type": "registration_guide",
+      "section": "eligibility"
+    }
+  },
+  {
+    "text": "Mission for Aatmanirbharta in Pulses Purpose: Increase domestic pulse production (tur, urad, masoor) and reduce imports. Eligibility: Small/marginal pulse-growing farmers in selected districts; registration with NAFED/NCCF. Benefits: 100% MSP procurement assurance, certified seed/mini-kit distribution, and subsidies for processing units. Application: Register via state portals or NAFED/NCCF procurement apps with land records.",
+    "metadata": {
+      "scheme_name": "Pulses Mission",
+      "ministry": "Agriculture / NAFED",
+      "state": "Central",
+      "year": 2024,
+      "category": "Agriculture/Production",
+      "beneficiary": "Pulse Farmers",
+      "source_url": "https://www.myscheme.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "PM Dhan Dhaanya Krishi Yojana Purpose: Boost productivity and infrastructure in 100 underperforming districts. Eligibility: Farmers, allied workers, and FPO members in selected 100 districts; priority for SC/ST and women. Benefits: Access to irrigation, seeds, credit (KCC), storage, and processing infrastructure via District Samitis. Application: Delivered via District Dhan Dhaanya Samitis; contact local District Agriculture Office for participation.",
+    "metadata": {
+      "scheme_name": "PM Dhan Dhaanya",
+      "ministry": "Agriculture",
+      "state": "Central/District",
+      "year": 2024,
+      "category": "Agriculture/Aspirational",
+      "beneficiary": "Farmers in 100 Selected Districts",
+      "source_url": "https://www.myscheme.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  }
+]
