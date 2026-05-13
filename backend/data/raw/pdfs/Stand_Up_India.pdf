@@ -1,0 +1,41 @@
+
+
+
+
+
+<html>
+<head>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        .full-height {
+            height: 100%;
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="full-height">
+        <div style="background-color: #00b6f0; color: White; height: 8%;">
+        </div>
+        <div style="background-color: #F5F5DC; height:84%">
+            <div style=" padding:20px;">
+                <h2>
+                    Application Error:
+                </h2>
+                <h3>
+                    Sorry, an error occurred while processing your request.
+                </h3>
+                <h5><a href="/Login">Go Back To Home Page</a></h5>
+                <br />
+                <br />
+            </div>
+        </div>
+        <div style="background-color: #00b6f0; color: White; height: 8%;">
+        </div>
+    </div>
+</body>
+</html>

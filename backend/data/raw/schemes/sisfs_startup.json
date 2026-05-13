@@ -1,0 +1,44 @@
+[
+  {
+    "text": "Startup India Seed Fund Scheme (SISFS) Eligibility Criteria for Startups: 1. DPIIT Recognition: Must be recognized by DPIIT. 2. Incorporation Age: Not more than 2 years old at application. 3. Business Model: Must have a viable commercialization plan and scope for scaling. 4. Technology Usage: Must use technology in core product or delivery. 5. Shareholding: Indian promoters must hold at least 51%. 6. Prior Funding: Must not have received >₹10 lakh government support previously.",
+    "metadata": {
+      "scheme_name": "SISFS",
+      "ministry": "Ministry of Commerce and Industry (DPIIT)",
+      "state": "Central",
+      "year": 2024,
+      "category": "Startup",
+      "beneficiary": "Recognized Startups",
+      "source_url": "https://www.startupindia.gov.in/content/sih/en/ams-application/seed-fund.html",
+      "document_type": "eligibility_guidelines",
+      "section": "eligibility"
+    }
+  },
+  {
+    "text": "Startup India Seed Fund Scheme (SISFS) Benefits: 1. Grant: Up to ₹20 Lakhs for proof of concept, prototype development, or product trials. 2. Investment: Up to ₹50 Lakhs for market entry, commercialization, or scaling up through debt or debt-linked instruments. The scheme is sector-agnostic with priority for innovative solutions in social impact, agriculture, healthcare, and energy.",
+    "metadata": {
+      "scheme_name": "SISFS",
+      "ministry": "DPIIT",
+      "state": "Central",
+      "year": 2024,
+      "category": "Startup",
+      "beneficiary": "Startups",
+      "source_url": "https://www.startupindia.gov.in/",
+      "document_type": "benefits_summary",
+      "section": "benefits"
+    }
+  },
+  {
+    "text": "SISFS Application Process: 1. Apply online via the Startup India portal (https://www.startupindia.gov.in/). 2. Use DPIIT recognition credentials to login. 3. Select up to three incubators simultaneously for fund application. 4. Fill form and submit; no physical documents required. Required Documents: DPIIT Recognition Certificate, Proof of Incorporation, Business Plan, and Financial Statements (if applicable).",
+    "metadata": {
+      "scheme_name": "SISFS",
+      "ministry": "DPIIT",
+      "state": "Central",
+      "year": 2024,
+      "category": "Startup",
+      "beneficiary": "Startups",
+      "source_url": "https://www.startupindia.gov.in/",
+      "document_type": "application_guide",
+      "section": "application"
+    }
+  }
+]

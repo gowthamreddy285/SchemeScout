@@ -1,0 +1,58 @@
+[
+  {
+    "text": "MSME Samadhaan (Delayed Payment Monitoring System) Purpose: A portal for MSEs to file grievances against buyers for delayed payments. Eligibility: Any micro or small enterprise with a valid Udyam Registration. Benefits: MSEs can claim payments due including compound interest (3x bank rate) if not paid within 45 days. Cases are reviewed by MSEFC. Application: Online via Samadhaan portal (https://samadhaan.msme.gov.in/) using Udyam/UAM and OTP.",
+    "metadata": {
+      "scheme_name": "MSME Samadhaan",
+      "ministry": "MSME",
+      "state": "Central",
+      "year": 2024,
+      "category": "MSME",
+      "beneficiary": "MSEs",
+      "source_url": "https://samadhaan.msme.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "Export Promotion Capital Goods (EPCG) Scheme Purpose: Facilitate import of capital goods at zero or concessional customs duty for quality export production. Eligibility: Manufacturer exporters, merchant exporters with supporting manufacturers, and service providers. Requires valid IEC. Benefits: Concessional duty in exchange for fulfilling export obligations. Application: Online via DGFT portal (https://www.dgft.gov.in/) with DSC and IEC.",
+    "metadata": {
+      "scheme_name": "EPCG",
+      "ministry": "Ministry of Commerce and Industry",
+      "state": "Central",
+      "year": 2024,
+      "category": "MSME/Export",
+      "beneficiary": "Exporters",
+      "source_url": "https://www.dgft.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "Coir Vikas Yojana (CVY) Purpose: Promote development and modernization of the coir industry. Eligibility: Coir units, individuals, SHGs, and cooperatives. Mahila Coir Yojana component targets women. Benefits: Financial assistance for modernization, skill development, and setting up new units. Application: Apply through Coir Board (https://coirboard.gov.in/) or myScheme portal.",
+    "metadata": {
+      "scheme_name": "Coir Vikas Yojana",
+      "ministry": "MSME",
+      "state": "Central",
+      "year": 2024,
+      "category": "MSME/Coir",
+      "beneficiary": "Coir Artisans, SHGs",
+      "source_url": "https://coirboard.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "Public Procurement Policy for MSEs Purpose: Mandates Central Ministries/CPSEs to procure at least 25% of annual requirements from MSEs. Eligibility: MSEs registered with Udyam, NSIC, or KVIC. Benefits: Free tender sets, EMD exemption, and purchase preference within L1+15% price band. Application: No separate application; provide valid Udyam registration details when participating in tenders.",
+    "metadata": {
+      "scheme_name": "Public Procurement Policy",
+      "ministry": "Various",
+      "state": "Central",
+      "year": 2024,
+      "category": "MSME",
+      "beneficiary": "MSEs",
+      "source_url": "https://www.myscheme.gov.in/",
+      "document_type": "policy_guideline",
+      "section": "eligibility"
+    }
+  }
+]

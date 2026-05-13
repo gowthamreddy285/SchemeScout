@@ -1,42 +1,47 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+}
 
 :root {
-  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
   color-scheme: dark;
 }
 
 body {
+  @apply bg-[#080808] text-slate-200 antialiased;
   margin: 0;
-  background: #080c14;
-  color: #f1f5f9;
 }
 
-#root {
-  width: 100%;
+/* Simple, clean scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
 }
 
-.glass {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  border-radius: 16px;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+::-webkit-scrollbar-track {
+  background: transparent;
 }
 
-.answer-border {
-  border-left: 2px solid #6366f1;
-  padding-left: 1.25rem;
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
 }
 
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
 }
 
-.no-scrollbar {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+/* Simple selection */
+::selection {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+/* Typography refinements */
+h1, h2, h3, h4 {
+  @apply tracking-tighter;
+}
+
+input, button {
+  @apply transition-all duration-200;
 }

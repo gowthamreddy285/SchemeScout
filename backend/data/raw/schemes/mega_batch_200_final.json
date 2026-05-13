@@ -1,0 +1,93 @@
+[
+  {
+    "text": "Pradhan Mantri Jan Dhan Yojana (PMJDY): A national mission for financial inclusion to ensure access to financial services, namely, basic savings & deposit accounts, remittance, credit, insurance, and pension in an affordable manner. Eligibility: Any Indian citizen above 10 years. Benefits: No minimum balance required, interest on deposits, accidental insurance cover of ₹2 lakh, and overdraft facility of up to ₹10,000 to eligible account holders.",
+    "metadata": {
+      "scheme_name": "PMJDY",
+      "ministry": "Ministry of Finance",
+      "state": "Central",
+      "year": 2024,
+      "category": "Finance/Inclusion",
+      "beneficiary": "All Citizens",
+      "section": "overview",
+      "source_url": "https://pmjdy.gov.in/"
+    }
+  },
+  {
+    "text": "Pradhan Mantri Ujjwala Yojana (PMUY): Aims to provide clean cooking fuel (LPG) to women members of below-poverty-line (BPL) households. Eligibility: Adult women belonging to BPL families, SC/ST, and other marginalized categories. Benefits: Financial support of ₹1,600 for each LPG connection, free first refill, and stove. Encourages health and reduces respiratory issues caused by traditional fuels.",
+    "metadata": {
+      "scheme_name": "PMUY",
+      "ministry": "Ministry of Petroleum and Natural Gas",
+      "state": "Central",
+      "year": 2024,
+      "category": "Social Welfare/Energy",
+      "beneficiary": "BPL Women",
+      "section": "benefits",
+      "source_url": "https://www.pmuy.gov.in/"
+    }
+  },
+  {
+    "text": "Swachh Bharat Mission (SBM): A country-wide campaign to eliminate open defecation and improve solid waste management. Eligibility: All households and local bodies. Benefits: Financial incentive of ₹12,000 for the construction of Individual Household Latrines (IHHL). Promotes community toilets and sustainable waste disposal systems in rural and urban areas.",
+    "metadata": {
+      "scheme_name": "Swachh Bharat Mission",
+      "ministry": "Ministry of Housing and Urban Affairs",
+      "state": "Central",
+      "year": 2024,
+      "category": "Social Welfare/Sanitation",
+      "beneficiary": "All Households",
+      "section": "benefits",
+      "source_url": "https://swachhbharatmission.gov.in/"
+    }
+  },
+  {
+    "text": "Pradhan Mantri Suraksha Bima Yojana (PMSBY): A one-year accidental insurance scheme renewable from year to year. Eligibility: Individuals in the age group of 18 to 70 years with a bank account. Benefits: Risk coverage of ₹2 lakh for accidental death and full disability, and ₹1 lakh for partial disability. The premium is only ₹20 per annum.",
+    "metadata": {
+      "scheme_name": "PMSBY",
+      "ministry": "Ministry of Finance",
+      "state": "Central",
+      "year": 2024,
+      "category": "Finance/Insurance",
+      "beneficiary": "All Citizens (18-70)",
+      "section": "eligibility",
+      "source_url": "https://www.jansuraksha.gov.in/"
+    }
+  },
+  {
+    "text": "Jal Jeevan Mission (JJM): Aims to provide safe and adequate drinking water through individual household tap connections by 2024 to all households in rural India. Eligibility: All rural households. Benefits: Functional Household Tap Connection (FHTC) providing at least 55 liters of water per person per day. Focuses on water quality monitoring and community participation.",
+    "metadata": {
+      "scheme_name": "Jal Jeevan Mission",
+      "ministry": "Ministry of Jal Shakti",
+      "state": "Central",
+      "year": 2024,
+      "category": "Infrastructure/Water",
+      "beneficiary": "Rural Households",
+      "section": "overview",
+      "source_url": "https://jaljeevanmission.gov.in/"
+    }
+  },
+  {
+    "text": "Agnipath Scheme: A transformative recruitment scheme for Indian youth to serve in the Armed Forces for a period of four years as Agniveers. Eligibility: Candidates aged 17.5 to 21 years. Benefits: Monthly package of ₹30,000 to ₹40,000 plus allowances. One-time 'Seva Nidhi' package of ₹11.71 lakh upon completion of four years. 25% of Agniveers to be enrolled in regular cadre.",
+    "metadata": {
+      "scheme_name": "Agnipath Scheme",
+      "ministry": "Ministry of Defence",
+      "state": "Central",
+      "year": 2024,
+      "category": "Employment/Defence",
+      "beneficiary": "Youth",
+      "section": "benefits",
+      "source_url": "https://www.joinindianarmy.nic.in/"
+    }
+  },
+  {
+    "text": "PM Vishwakarma Yojana: A scheme to support traditional artisans and craftspeople of India. Eligibility: Artisans and craftspeople working with their hands and tools in 18 trades (e.g., carpenters, blacksmiths, potters). Benefits: Recognition through PM Vishwakarma ID card, skill up-gradation, toolkit incentive of ₹15,000, and collateral-free credit support up to ₹3 lakh at 5% interest.",
+    "metadata": {
+      "scheme_name": "PM Vishwakarma",
+      "ministry": "Ministry of Micro, Small and Medium Enterprises",
+      "state": "Central",
+      "year": 2024,
+      "category": "MSME/Artisans",
+      "beneficiary": "Artisans",
+      "section": "benefits",
+      "source_url": "https://pmvishwakarma.gov.in/"
+    }
+  }
+]

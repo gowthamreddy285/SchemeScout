@@ -1,0 +1,57 @@
+[
+  {
+    "text": "Yuva Nidhi (Karnataka): Financial assistance for unemployed graduates and diploma holders. Eligibility: Residents of Karnataka who graduated in 2023 or later and have been unemployed for at least 6 months. Benefits: ₹3,000 per month for graduates and ₹1,500 per month for diploma holders for up to 2 years. Requirement: Monthly self-declaration of unemployment on Seva Sindhu portal.",
+    "metadata": {
+      "scheme_name": "Yuva Nidhi",
+      "ministry": "Skill Development, Entrepreneurship and Livelihood Dept, Karnataka",
+      "state": "Karnataka",
+      "category": "Education/Employment",
+      "beneficiary": "Unemployed Youth",
+      "source_url": "https://sevasindhugs.karnataka.gov.in/"
+    }
+  },
+  {
+    "text": "Shakti Scheme (Karnataka): Free bus travel for women and transgender persons. Eligibility: All women and transgender persons who are residents of Karnataka. Benefits: Free travel in non-premium state-run buses (KSRTC, BMTC, NWKRTC, KKRTC) within Karnataka. Requirement: Shakti Smart Card or valid ID proof for residency.",
+    "metadata": {
+      "scheme_name": "Shakti Scheme",
+      "ministry": "Transport Dept, Karnataka",
+      "state": "Karnataka",
+      "category": "Transport/Social Welfare",
+      "beneficiary": "Women & Transgender",
+      "source_url": "https://sevasindhugs.karnataka.gov.in/"
+    }
+  },
+  {
+    "text": "Gruha Jyothi (Karnataka): Free electricity for residential households. Eligibility: Residential consumers in Karnataka with average monthly consumption up to 200 units. Benefits: Zero electricity bill for consumption below the calculated 'entitled units' (average + 10% buffer) up to 200 units. Requirement: Registration on Seva Sindhu portal.",
+    "metadata": {
+      "scheme_name": "Gruha Jyothi",
+      "ministry": "Energy Dept, Karnataka",
+      "state": "Karnataka",
+      "category": "Utility/Social Welfare",
+      "beneficiary": "Residential Households",
+      "source_url": "https://sevasindhugs.karnataka.gov.in/"
+    }
+  },
+  {
+    "text": "Anna Bhagya (Karnataka): Food security for low-income families. Eligibility: BPL (Below Poverty Line) and Antyodaya cardholders in Karnataka. Benefits: 10kg of free rice per person. Currently, the government provides 5kg rice and cash in lieu of the remaining 5kg (at ₹34/kg) via DBT. Requirement: Valid Ration Card.",
+    "metadata": {
+      "scheme_name": "Anna Bhagya",
+      "ministry": "Food, Civil Supplies & Consumer Affairs, Karnataka",
+      "state": "Karnataka",
+      "category": "Food Security/Social Welfare",
+      "beneficiary": "BPL Families",
+      "source_url": "https://sevasindhugs.karnataka.gov.in/"
+    }
+  },
+  {
+    "text": "Gruha Lakshmi (Karnataka): Monthly financial aid for women heads of families. Eligibility: Woman head of the family as identified in BPL/APL/Antyodaya cards. Not applicable if the woman or her husband is a tax payer. Benefits: ₹2,000 per month transferred directly to the bank account via DBT. Requirement: Registration on Seva Sindhu portal.",
+    "metadata": {
+      "scheme_name": "Gruha Lakshmi",
+      "ministry": "Women and Child Development Dept, Karnataka",
+      "state": "Karnataka",
+      "category": "Financial Aid/Women Welfare",
+      "beneficiary": "Women Heads of Families",
+      "source_url": "https://sevasindhugs.karnataka.gov.in/"
+    }
+  }
+]

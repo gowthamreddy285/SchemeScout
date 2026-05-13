@@ -1,0 +1,72 @@
+[
+  {
+    "text": "SMILE (SIDBI Make in India Soft Loan Fund for MSMEs) Objective: Provides soft loans to MSMEs for debt-equity ratios during establishment or expansion. Eligibility: Existing and new MSMEs in manufacturing/service sectors, prioritizing 'Make in India' sectors. Benefits: Soft loans with competitive interest rates and tenures up to 10 years (including moratorium). Application: Approach nearest SIDBI branch with business plan and financial statements.",
+    "metadata": {
+      "scheme_name": "SMILE",
+      "ministry": "MSME / SIDBI",
+      "state": "Central",
+      "year": 2024,
+      "category": "MSME",
+      "beneficiary": "Manufacturing/Service MSMEs",
+      "source_url": "https://www.sidbi.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "PM Vishwakarma Objective: End-to-end support for artisans in 18 traditional trades. Eligibility: 18+ years old, engaged in specified trades, self-employed, no similar loans in last 5 years. Benefits: Skill training (Rs. 500/day stipend), toolkit incentive (up to Rs. 15,000), collateral-free loans (up to Rs. 3 lakh at 5% interest), and digital transaction incentives. Application: Online via PM Vishwakarma portal (https://pmvishwakarma.gov.in/) or CSCs.",
+    "metadata": {
+      "scheme_name": "PM Vishwakarma",
+      "ministry": "MSME",
+      "state": "Central",
+      "year": 2024,
+      "category": "MSME/Artisan",
+      "beneficiary": "Traditional Artisans",
+      "source_url": "https://pmvishwakarma.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "Startup India Initiative Objective: Flagship program to nurture innovation and entrepreneurship. Eligibility: Private Ltd, LLP, or Partnership; <10 years old; turnover <Rs. 100 crore; focus on innovation/improvement. Benefits: DPIIT recognition, tax exemptions (80-IAC), simplified compliance, IPR fast-tracking, and access to public procurement. Application: Online via Startup India portal (https://www.startupindia.gov.in/) for DPIIT recognition.",
+    "metadata": {
+      "scheme_name": "Startup India Initiative",
+      "ministry": "DPIIT",
+      "state": "Central",
+      "year": 2024,
+      "category": "Startup",
+      "beneficiary": "Startups",
+      "source_url": "https://www.startupindia.gov.in/",
+      "document_type": "policy_guideline",
+      "section": "eligibility"
+    }
+  },
+  {
+    "text": "Fund of Funds for Startups (FFS) & Credit Guarantee (CGSS): FFS: Provides capital to AIFs which invest in DPIIT-recognized startups. Access equity funding and mentorship through Daughter Funds. CGSS: Provides collateral-free credit guarantee for loans up to Rs. 10 crore for DPIIT-recognized startups. Application: Approach SIDBI-supported AIFs for FFS, or Member Institutions (Banks/NBFCs) for CGSS.",
+    "metadata": {
+      "scheme_name": "FFS / CGSS",
+      "ministry": "DPIIT / SIDBI",
+      "state": "Central",
+      "year": 2024,
+      "category": "Startup/Finance",
+      "beneficiary": "Recognized Startups",
+      "source_url": "https://www.startupindia.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "Atal Innovation Mission (AIM) Objective: Promote innovation culture in schools, universities, and industry. Components: Atal Tinkering Labs (Schools), Atal Incubation Centres (Universities/HEIs), and Atal New India Challenges (Startups). Benefits: Grants up to Rs. 10 crore for incubators or Rs. 1 crore for innovation challenges, plus mentorship. Application: Identify specific program on AIM website (https://aim.gov.in/) and submit proposals during open calls.",
+    "metadata": {
+      "scheme_name": "Atal Innovation Mission (AIM)",
+      "ministry": "NITI Aayog",
+      "state": "Central",
+      "year": 2024,
+      "category": "Startup/Innovation",
+      "beneficiary": "Schools, Universities, Startups",
+      "source_url": "https://aim.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  }
+]

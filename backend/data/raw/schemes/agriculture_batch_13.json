@@ -1,0 +1,44 @@
+[
+  {
+    "text": "Agri-Clinics and Agri-Business Centres (ACABC) Purpose: Provide self-employment for ag-graduates via Agri-Clinics or Business Centres. Eligibility: Graduates/Diploma holders in agriculture and allied subjects; age 18–60. Benefits: Training and back-ended subsidies (36% for general; 44% for women/SC/ST). Project ceilings: ₹20 lakhs (individuals) or ₹100 lakhs (groups). Application: Complete 45-day training at NTI, then apply via official ACABC website (https://acabcmis.gov.in/).",
+    "metadata": {
+      "scheme_name": "ACABC",
+      "ministry": "Ministry of Agriculture & Farmers Welfare",
+      "state": "Central",
+      "year": 2024,
+      "category": "Agriculture/Entrepreneurship",
+      "beneficiary": "Agri-Graduates",
+      "source_url": "https://acabcmis.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "Rainfed Area Development (RAD) Purpose: Part of NMSA focusing on Integrated Farming Systems (IFS) to minimize climate risks. Eligibility: All farmers eligible; uses a cluster-based approach. Benefits: Financial assistance up to ₹30,000 per family for adopting IFS (crops with livestock, fishery, etc.) and resource conservation. Application: Offline via District/Block Agriculture Officer; submit proposals for integrated interventions.",
+    "metadata": {
+      "scheme_name": "RAD",
+      "ministry": "Agriculture",
+      "state": "Central",
+      "year": 2024,
+      "category": "Agriculture/Climate",
+      "beneficiary": "Rainfed Farmers",
+      "source_url": "https://www.myscheme.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "Crop Residue Management (CRM) Purpose: Support in-situ management of crop residue to prevent stubble burning. Eligibility: Farmers, Custom Hiring Centres (CHCs), and cooperatives/FPOs in target states (Punjab, Haryana, UP, MP, Delhi). Benefits: 50% subsidy for individual farmers and up to 80% for CHCs/cooperatives on machinery. Application: Managed via State Agriculture Departments through designated portals or offices.",
+    "metadata": {
+      "scheme_name": "CRM",
+      "ministry": "Agriculture",
+      "state": "Central/State",
+      "year": 2024,
+      "category": "Agriculture/Environment",
+      "beneficiary": "Farmers in Target States",
+      "source_url": "https://www.myscheme.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  }
+]

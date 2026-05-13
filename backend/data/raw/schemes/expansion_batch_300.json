@@ -1,0 +1,102 @@
+[
+  {
+    "text": "PM RAHAT (Road Accident Holistic Action for Treatment): Launched in Feb 2026, this scheme provides cashless treatment for road accident victims. Benefits: Cashless treatment of up to ₹1.5 lakh per victim. Eligibility: All road accident victims on national and state highways in India.",
+    "metadata": {
+      "scheme_name": "PM RAHAT",
+      "ministry": "Ministry of Road Transport and Highways",
+      "state": "Central",
+      "category": "Healthcare",
+      "source_url": "https://morth.nic.in/"
+    }
+  },
+  {
+    "text": "Ayushman Bharat PM-JAY Senior Citizen Expansion (2026): A major update to the world's largest health insurance scheme. Benefits: Health coverage of ₹5 lakh per family annually. Eligibility: All senior citizens in India aged 70 years and above, regardless of income or economic status. Requirement: Aadhaar-based registration.",
+    "metadata": {
+      "scheme_name": "Ayushman Bharat PM-JAY (70+)",
+      "ministry": "Ministry of Health and Family Welfare",
+      "state": "Central",
+      "category": "Healthcare",
+      "source_url": "https://nha.gov.in/pm-jay"
+    }
+  },
+  {
+    "text": "Lakhpati Didi Initiative (2026 Expansion): Empowerment program for rural women. Benefits: Financial literacy, skill training, and market access to help women earn at least ₹1 lakh per year. Target: 6 crore women beneficiaries by 2029. Eligibility: Rural women members of Self-Help Groups (SHGs).",
+    "metadata": {
+      "scheme_name": "Lakhpati Didi",
+      "ministry": "Ministry of Rural Development",
+      "state": "Central",
+      "category": "Women Welfare/Rural Development",
+      "source_url": "https://rural.nic.in/"
+    }
+  },
+  {
+    "text": "Divyang Sahara Yojana (2026): Support for persons with disabilities. Benefits: Financial assistance for assistive devices (wheelchairs, hearing aids, smart canes) and a monthly disability pension. Eligibility: Persons with 40% or more disability belonging to low-income households.",
+    "metadata": {
+      "scheme_name": "Divyang Sahara Yojana",
+      "ministry": "Ministry of Social Justice and Empowerment",
+      "state": "Central",
+      "category": "Social Welfare",
+      "source_url": "https://socialjustice.gov.in/"
+    }
+  },
+  {
+    "text": "Startup India Fund of Funds 2.0 (FFS 2.0): A ₹10,000 crore corpus to boost the startup ecosystem. Benefits: Capital support to SEBI-registered Alternative Investment Funds (AIFs) which in turn invest in startups. Focus: Manufacturing, deep-tech, and green energy sectors.",
+    "metadata": {
+      "scheme_name": "Startup India FFS 2.0",
+      "ministry": "Ministry of Commerce and Industry",
+      "state": "Central",
+      "category": "Startups/Economy",
+      "source_url": "https://www.startupindia.gov.in/"
+    }
+  },
+  {
+    "text": "PM-KUSUM (Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan): Solar power for farmers. Benefits: Subsidies for installing solar pumps and solarizing existing grid-connected pumps. Farmers can also sell surplus power to the grid for extra income.",
+    "metadata": {
+      "scheme_name": "PM-KUSUM",
+      "ministry": "Ministry of New and Renewable Energy",
+      "state": "Central",
+      "category": "Agriculture/Energy",
+      "source_url": "https://mnre.gov.in/"
+    }
+  },
+  {
+    "text": "PM SVANidhi (Pradhan Mantri Street Vendor’s AtmaNirbhar Nidhi): Micro-credit for street vendors. Benefits: Collateral-free working capital loans starting from ₹10,000, with a second loan up to ₹20,000 and third up to ₹50,000 on timely repayment. Interest subsidy of 7%.",
+    "metadata": {
+      "scheme_name": "PM SVANidhi",
+      "ministry": "Ministry of Housing and Urban Affairs",
+      "state": "Central",
+      "category": "Finance/Employment",
+      "source_url": "https://pmsvanidhi.mohua.gov.in/"
+    }
+  },
+  {
+    "text": "Bharat-VISTAAR (2026): Multilingual AI agricultural platform. Benefits: Real-time, customized advisory for crops, weather, and market prices in 22 regional languages. Uses generative AI to answer farmer queries directly.",
+    "metadata": {
+      "scheme_name": "Bharat-VISTAAR",
+      "ministry": "Ministry of Agriculture and Farmers Welfare",
+      "state": "Central",
+      "category": "Agriculture/Technology",
+      "source_url": "https://agricoop.nic.in/"
+    }
+  },
+  {
+    "text": "PM Vishwakarma Scheme: Support for traditional artisans. Benefits: Recognition through PM Vishwakarma Certificate, skill upgrading, toolkit incentive of ₹15,000, and credit support up to ₹3 lakh at 5% interest rate.",
+    "metadata": {
+      "scheme_name": "PM Vishwakarma",
+      "ministry": "Ministry of Micro, Small and Medium Enterprises",
+      "state": "Central",
+      "category": "Employment/Artisans",
+      "source_url": "https://pmvishwakarma.gov.in/"
+    }
+  },
+  {
+    "text": "Janani Suraksha Yojana (JSY): Maternal health scheme. Benefits: Cash assistance for institutional delivery to reduce maternal and neonatal mortality. Focuses on poor pregnant women in low-performing states.",
+    "metadata": {
+      "scheme_name": "Janani Suraksha Yojana",
+      "ministry": "Ministry of Health and Family Welfare",
+      "state": "Central",
+      "category": "Healthcare/Women",
+      "source_url": "https://nhm.gov.in/"
+    }
+  }
+]

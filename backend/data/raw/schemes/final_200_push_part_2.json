@@ -1,0 +1,67 @@
+[
+  {
+    "text": "Pradhan Mantri Shram Yogi Maan-Dhan (PM-SYM): A voluntary and contributory pension scheme for unorganized workers. Eligibility: Unorganized workers aged 18-40 with monthly income < ₹15,000. Benefits: Assured monthly pension of ₹3,000 after attaining the age of 60 years. 50:50 contribution by the worker and the Central Government.",
+    "metadata": {
+      "scheme_name": "PM-SYM",
+      "ministry": "Ministry of Labour and Employment",
+      "state": "Central",
+      "year": 2024,
+      "category": "Social Welfare/Pension",
+      "beneficiary": "Unorganized Workers",
+      "section": "benefits",
+      "source_url": "https://labour.gov.in/pm-sym"
+    }
+  },
+  {
+    "text": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY): A one-year life insurance scheme renewable from year to year offering coverage for death. Eligibility: Individuals in the age group of 18 to 50 years with a bank account. Benefits: Life cover of ₹2 lakh in case of death for any reason. Premium of ₹436 per annum.",
+    "metadata": {
+      "scheme_name": "PMJJBY",
+      "ministry": "Ministry of Finance",
+      "state": "Central",
+      "year": 2024,
+      "category": "Finance/Insurance",
+      "beneficiary": "All Citizens (18-50)",
+      "section": "benefits",
+      "source_url": "https://www.jansuraksha.gov.in/"
+    }
+  },
+  {
+    "text": "Smart Cities Mission: An urban renewal and retrofitting program to develop smart cities across the country, making them citizen-friendly and sustainable. Eligibility: Selected 100 cities across India. Benefits: High-quality infrastructure, digital solutions for urban problems, improved mobility, and sustainable environment through data-driven planning.",
+    "metadata": {
+      "scheme_name": "Smart Cities Mission",
+      "ministry": "Ministry of Housing and Urban Affairs",
+      "state": "Central",
+      "year": 2024,
+      "category": "Urban Development",
+      "beneficiary": "Urban Citizens",
+      "section": "overview",
+      "source_url": "https://smartcities.gov.in/"
+    }
+  },
+  {
+    "text": "National Health Mission (NHM): Aims to provide universal access to equitable, affordable, and quality health care services that are accountable and responsive to people's needs. Eligibility: All citizens, with focus on rural (NRHM) and urban (NUHM) populations. Benefits: Strengthening of health systems, reproductive-maternal-neonatal-child and adolescent health (RMNCH+A), and communicable/non-communicable disease control.",
+    "metadata": {
+      "scheme_name": "National Health Mission",
+      "ministry": "Ministry of Health and Family Welfare",
+      "state": "Central",
+      "year": 2024,
+      "category": "Health",
+      "beneficiary": "All Citizens",
+      "section": "overview",
+      "source_url": "https://nhm.gov.in/"
+    }
+  },
+  {
+    "text": "Samagra Shiksha Abhiyan: An integrated scheme for school education extending from pre-school to class XII to ensure inclusive and equitable quality education. Eligibility: All school-going children and schools. Benefits: Support for vocational education, digital initiatives (DIKSHA), strengthening of teacher training, and gender parity through Kasturba Gandhi Balika Vidyalayas.",
+    "metadata": {
+      "scheme_name": "Samagra Shiksha",
+      "ministry": "Ministry of Education",
+      "state": "Central",
+      "year": 2024,
+      "category": "Education",
+      "beneficiary": "Students and Teachers",
+      "section": "overview",
+      "source_url": "https://samagra.education.gov.in/"
+    }
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "text": "Production Linked Incentive (PLI) Schemes: Aims to give companies incentives on incremental sales from products manufactured in domestic units. Eligibility: Manufacturers in 14 key sectors including Electronics, Pharmaceuticals, and Automobiles. Benefits: Cash incentives ranging from 4% to 6% on incremental sales. Boosts domestic manufacturing and global export competitiveness.",
+    "metadata": {
+      "scheme_name": "PLI Schemes",
+      "ministry": "Various Ministries",
+      "state": "Central",
+      "year": 2024,
+      "category": "Economy/Manufacturing",
+      "beneficiary": "Manufacturers",
+      "section": "overview",
+      "source_url": "https://www.india.gov.in/spotlight/production-linked-incentive-pli-scheme"
+    }
+  },
+  {
+    "text": "PM Internship Scheme: Aims to provide internship opportunities to one crore youth in top 500 companies over five years. Eligibility: Youth aged 21-24 years who are not in full-time employment or education. Benefits: Monthly internship allowance of ₹5,000 and one-time assistance of ₹6,000. Provides real-world business environment exposure.",
+    "metadata": {
+      "scheme_name": "PM Internship Scheme",
+      "ministry": "Ministry of Corporate Affairs",
+      "state": "Central",
+      "year": 2024,
+      "category": "Employment/Education",
+      "beneficiary": "Unemployed Youth",
+      "section": "benefits",
+      "source_url": "https://pminternship.mca.gov.in/"
+    }
+  },
+  {
+    "text": "Namami Gange Programme: An Integrated Conservation Mission to accomplish the twin objectives of effective abatement of pollution, conservation and rejuvenation of National River Ganga. Eligibility: Local bodies, industries, and residents along the Ganga basin. Benefits: Financial support for sewage treatment infrastructure, river-front development, and river surface cleaning.",
+    "metadata": {
+      "scheme_name": "Namami Gange",
+      "ministry": "Ministry of Jal Shakti",
+      "state": "Central",
+      "year": 2024,
+      "category": "Environment/Infrastructure",
+      "beneficiary": "Basin Residents/Local Bodies",
+      "section": "overview",
+      "source_url": "https://nmcg.nic.in/"
+    }
+  },
+  {
+    "text": "BharatNet Project: The world's largest rural broadband connectivity program using Optical Fibre. Eligibility: Gram Panchayats and rural residents. Benefits: High-speed digital connectivity to over 2.5 lakh Gram Panchayats. Enables e-governance, e-health, e-education, and e-banking in rural India.",
+    "metadata": {
+      "scheme_name": "BharatNet",
+      "ministry": "Ministry of Communications",
+      "state": "Central",
+      "year": 2024,
+      "category": "Infrastructure/Digital",
+      "beneficiary": "Rural Communities",
+      "section": "overview",
+      "source_url": "https://www.bbnl.nic.in/"
+    }
+  },
+  {
+    "text": "PM Surya Ghar: Muft Bijli Yojana: A rooftop solar scheme to provide free electricity to households. Eligibility: Households with suitable roof space and valid electricity connection. Benefits: Subsidy of up to ₹78,000 for 3kW systems. Provides 300 units of free electricity every month to 1 crore households.",
+    "metadata": {
+      "scheme_name": "PM Surya Ghar",
+      "ministry": "Ministry of New and Renewable Energy",
+      "state": "Central",
+      "year": 2024,
+      "category": "Energy/Social Welfare",
+      "beneficiary": "Households",
+      "section": "benefits",
+      "source_url": "https://pmsuryaghar.gov.in/"
+    }
+  }
+]

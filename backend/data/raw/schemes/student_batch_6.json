@@ -1,0 +1,58 @@
+[
+  {
+    "text": "PM-USP (Pradhan Mantri Uchchatar Shiksha Protsahan) Purpose: Central sector scholarship for meritorious students from economically weaker families for higher education. Eligibility: Top 20th percentile in Class 12 board exams; enrolled in regular UG/PG courses; annual family income < ₹4.5 lakh. Benefits: ₹12,000/year for UG; ₹20,000/year for PG studies. Application: Online via National Scholarship Portal (https://scholarships.gov.in/).",
+    "metadata": {
+      "scheme_name": "PM-USP",
+      "ministry": "Ministry of Education",
+      "state": "Central",
+      "year": 2024,
+      "category": "Student/Scholarship",
+      "beneficiary": "Meritorious UG/PG Students",
+      "source_url": "https://scholarships.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "PM-Vidyalaxmi Education Loan Scheme Purpose: Unified portal providing collateral-free, guarantor-free education loans to meritorious students in Quality Higher Education Institutions (QHEIs). Eligibility: Indian citizen with valid admission to a listed QHEI. Interest subvention for family income up to ₹8 lakh. Benefits: Apply to multiple banks via single form; interest subvention on loans up to ₹10 lakh. Application: Online via PM-Vidyalaxmi Portal (https://vidyalakshmi.co.in/).",
+    "metadata": {
+      "scheme_name": "PM-Vidyalaxmi",
+      "ministry": "Ministry of Education / Finance",
+      "state": "Central",
+      "year": 2024,
+      "category": "Student/Loan",
+      "beneficiary": "Students in QHEIs",
+      "source_url": "https://vidyalakshmi.co.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "PMSSS J&K (Prime Minister's Special Scholarship Scheme) Purpose: Support J&K and Ladakh students for higher education outside their UTs. Eligibility: Permanent resident of J&K/Ladakh; passed Class 12 from JKBOSE/CBSE in the UT; family income ≤ ₹8 lakh. Benefits: Academic fees covered and maintenance allowance of ₹1,00,000 per annum. Application: Online via AICTE PMSSS portal (https://aicte-jk-scholarship-gov.in/).",
+    "metadata": {
+      "scheme_name": "PMSSS J&K",
+      "ministry": "AICTE / Ministry of Education",
+      "state": "Central (J&K/Ladakh)",
+      "year": 2024,
+      "category": "Student/Scholarship",
+      "beneficiary": "Students from J&K and Ladakh",
+      "source_url": "https://aicte-jk-scholarship-gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  },
+  {
+    "text": "Post-Matric SC/ST/OBC Scholarships Purpose: Financial assistance for students continuing education after Class 10. Eligibility: Belong to SC/ST/OBC category; enrolled in recognized post-matric course (Class 11 to PhD); family income limits apply (e.g., ₹2.5 lakh for SC/ST). Benefits: Covers non-refundable fees, maintenance allowance, and study expenses. Application: Online via National Scholarship Portal (https://scholarships.gov.in/) or State portals.",
+    "metadata": {
+      "scheme_name": "Post-Matric SC/ST/OBC Scholarships",
+      "ministry": "Ministry of Social Justice / Tribal Affairs",
+      "state": "Central/State",
+      "year": 2024,
+      "category": "Student/Scholarship",
+      "beneficiary": "SC/ST/OBC Students",
+      "source_url": "https://scholarships.gov.in/",
+      "document_type": "summary",
+      "section": "overview"
+    }
+  }
+]

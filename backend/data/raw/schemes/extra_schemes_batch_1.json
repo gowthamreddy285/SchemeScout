@@ -1,0 +1,67 @@
+[
+  {
+    "text": "PM KUSUM (Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan): Aims to provide energy security to farmers in India by harnessing solar power. Eligibility: Individual farmers, groups of farmers, and cooperatives. Benefits: Subsidies up to 60% for installing standalone solar pumps and solarizing existing grid-connected pumps. Allows farmers to sell surplus power to the grid for additional income.",
+    "metadata": {
+      "scheme_name": "PM KUSUM",
+      "ministry": "Ministry of New and Renewable Energy",
+      "state": "Central",
+      "year": 2024,
+      "category": "Agriculture/Energy",
+      "beneficiary": "Farmers",
+      "section": "benefits",
+      "source_url": "https://pmkusum.mnre.gov.in/"
+    }
+  },
+  {
+    "text": "Mission Shakti: An umbrella scheme for the safety, security, and empowerment of women. Eligibility: All women in India, especially those in difficult circumstances. Benefits: Includes 'Sambal' (One Stop Centres, Women Helpline, Beti Bachao Beti Padhao) and 'Samarthya' (Shakti Sadan, Sakhi Niwas, PMMVY). Provides 24/7 emergency response and long-term institutional support.",
+    "metadata": {
+      "scheme_name": "Mission Shakti",
+      "ministry": "Ministry of Women and Child Development",
+      "state": "Central",
+      "year": 2024,
+      "category": "Women/Safety",
+      "beneficiary": "All Women",
+      "section": "overview",
+      "source_url": "https://wcd.nic.in/act/mission-shakti"
+    }
+  },
+  {
+    "text": "FAME India Scheme (Faster Adoption and Manufacturing of Hybrid and Electric Vehicles): Aims to promote the manufacturing and adoption of electric and hybrid vehicle technology. Eligibility: Buyers of electric/hybrid vehicles and manufacturers. Benefits: Direct purchase incentives (subsidies) for electric 2-wheelers, 3-wheelers, 4-wheelers, and buses. Reduces the cost gap between electric and internal combustion engine vehicles.",
+    "metadata": {
+      "scheme_name": "FAME India",
+      "ministry": "Ministry of Heavy Industries",
+      "state": "Central",
+      "year": 2024,
+      "category": "Infrastructure/EV",
+      "beneficiary": "All Citizens/Manufacturers",
+      "section": "benefits",
+      "source_url": "https://fame2.heavyindustries.gov.in/"
+    }
+  },
+  {
+    "text": "SVAMITVA (Survey of Villages Abadi and Mapping with Improvised Technology in Village Areas): A central sector scheme to provide an integrated property validation solution for rural India. Eligibility: Rural property owners. Benefits: Issuance of 'Property Cards' (Gharauni) to village household owners, enabling them to use their property as a financial asset for taking loans and other financial benefits.",
+    "metadata": {
+      "scheme_name": "SVAMITVA",
+      "ministry": "Ministry of Panchayati Raj",
+      "state": "Central",
+      "year": 2024,
+      "category": "Rural/Property",
+      "beneficiary": "Rural Property Owners",
+      "section": "overview",
+      "source_url": "https://svamitva.nic.in/"
+    }
+  },
+  {
+    "text": "PM POSHAN (Mid-Day Meal Scheme): Provides one hot cooked meal in Government and Government-aided schools. Eligibility: Children in Classes I to VIII. Benefits: Improves the nutritional status of school-age children, encourages enrollment and attendance, and promotes social equality by bringing children of different backgrounds together.",
+    "metadata": {
+      "scheme_name": "PM POSHAN",
+      "ministry": "Ministry of Education",
+      "state": "Central",
+      "year": 2024,
+      "category": "Health/Education",
+      "beneficiary": "School Students",
+      "section": "benefits",
+      "source_url": "https://pmposhan.education.gov.in/"
+    }
+  }
+]
