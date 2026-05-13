@@ -143,17 +143,27 @@ const App = () => {
                         </div>
                         
                         <div className="flex flex-wrap gap-3 pt-4">
-                          {turn.result.citations?.map((cite, i) => (
-                            <div key={i} className="group flex items-center bg-white/[0.03] border border-white/5 rounded-full overflow-hidden transition-all hover:border-white/20">
-                              <a 
-                                href={cite.source_url} 
-                                target="_blank" 
-                                className="px-4 py-2 text-[10px] font-bold text-slate-400 hover:text-white transition-all flex items-center gap-2"
-                              >
-                                {cite.scheme_name} <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-all" />
-                              </a>
-                            </div>
-                          ))}
+                          {turn.result.citations?.map((cite, i) => {
+                            // Guard against broken/invalid URLs
+                            const isValidUrl = cite.source_url && 
+                                              cite.source_url !== 'N/A' && 
+                                              cite.source_url.startsWith('http');
+                            
+                            if (!isValidUrl) return null;
+
+                            return (
+                              <div key={i} className="group flex items-center bg-white/[0.03] border border-white/5 rounded-full overflow-hidden transition-all hover:border-white/20">
+                                <a 
+                                  href={cite.source_url} 
+                                  target="_blank" 
+                                  rel="noopener noreferrer"
+                                  className="px-4 py-2 text-[10px] font-bold text-slate-400 hover:text-white transition-all flex items-center gap-2"
+                                >
+                                  {cite.scheme_name} <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-all" />
+                                </a>
+                              </div>
+                            );
+                          })}
                         </div>
                       </>
                     ) : (

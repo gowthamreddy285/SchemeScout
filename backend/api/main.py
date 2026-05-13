@@ -7,19 +7,34 @@ Endpoints:
   GET  /health         — Health check
   GET  /schemes/count  — Count of indexed schemes
   GET  /filters        — Available filter options
+
+Rate Limiting (via slowapi):
+  /query       — RATE_LIMIT_QUERY  (default: 20/minute per IP)
+  all others   — RATE_LIMIT_DEFAULT (default: 60/minute per IP)
 """
 
 import os
 import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
 from typing import Optional, Dict, Any, List
 
+from slowapi import Limiter, _rate_limit_exceeded_handler
+from slowapi.util import get_remote_address
+from slowapi.errors import RateLimitExceeded
+from slowapi.middleware import SlowAPIMiddleware
+
 from retrieval.engine import CitizenRetrievalEngine
 from generation.generator import PolicyGenerator
+from config import RATE_LIMIT_QUERY, RATE_LIMIT_DEFAULT, EMBEDDING_MODEL_NAME
+
+# ── Rate Limiter ──────────────────────────────────────────────────────────────
+
+limiter = Limiter(key_func=get_remote_address, default_limits=[RATE_LIMIT_DEFAULT])
 
 # ── App ──────────────────────────────────────────────────────────────────────
 
@@ -45,6 +60,12 @@ app = FastAPI(
     version="1.0.0",
     lifespan=lifespan
 )
+
+# ── Middleware ────────────────────────────────────────────────────────────────
+
+app.state.limiter = limiter
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
+app.add_middleware(SlowAPIMiddleware)
 
 app.add_middleware(
     CORSMiddleware,
@@ -87,10 +108,13 @@ class HealthResponse(BaseModel):
 # ── Endpoints ─────────────────────────────────────────────────────────────────
 
 @app.post("/query", response_model=QueryResponse)
-async def query(request: QueryRequest):
+@limiter.limit(RATE_LIMIT_QUERY)
+async def query(request: Request, body: QueryRequest):
     """
     Main query endpoint. Retrieves relevant policy chunks and generates a cited answer.
-    
+
+    Rate limited to RATE_LIMIT_QUERY per IP (default: 20/minute).
+
     Supports metadata filters:
     - ministry: "MSME", "Agriculture", "Ministry of Education", etc.
     - state: "Central", "Karnataka", "Tamil Nadu", etc.
@@ -101,21 +125,21 @@ async def query(request: QueryRequest):
         raise HTTPException(status_code=503, detail="Retrieval engine not initialized.")
 
     try:
-        chunks = retrieval_engine.retrieve(request.query, filters=request.filters)
+        chunks = retrieval_engine.retrieve(body.query, filters=body.filters)
 
         if not chunks:
             return QueryResponse(
-                query=request.query,
+                query=body.query,
                 answer="No relevant policy information found. Try rephrasing or adjusting your filters.",
                 citations=[],
                 chunks_used=0,
                 provider=None
             )
 
-        result = generator.generate(request.query, chunks)
+        result = generator.generate(body.query, chunks)
 
         return QueryResponse(
-            query=request.query,
+            query=body.query,
             answer=result["answer"],
             citations=[Citation(**c) for c in result["citations"]],
             chunks_used=result["chunks_used"],
@@ -127,7 +151,8 @@ async def query(request: QueryRequest):
 
 
 @app.get("/health", response_model=HealthResponse)
-async def health():
+@limiter.limit(RATE_LIMIT_DEFAULT)
+async def health(request: Request):
     """Health check — confirms DB, LLM, and embedding model are ready."""
     if retrieval_engine is None:
         raise HTTPException(status_code=503, detail="Engine not ready.")
@@ -139,12 +164,13 @@ async def health():
         status="ok",
         db_documents=doc_count,
         llm_provider=generator.provider if generator else None,
-        embedding_model="BAAI/bge-small-en-v1.5"
+        embedding_model=EMBEDDING_MODEL_NAME
     )
 
 
 @app.get("/schemes/count")
-async def scheme_count():
+@limiter.limit(RATE_LIMIT_DEFAULT)
+async def scheme_count(request: Request):
     """Returns number of indexed document chunks."""
     if retrieval_engine is None:
         raise HTTPException(status_code=503, detail="Engine not ready.")
@@ -153,7 +179,8 @@ async def scheme_count():
 
 
 @app.get("/filters")
-async def available_filters():
+@limiter.limit(RATE_LIMIT_DEFAULT)
+async def available_filters(request: Request):
     """Returns the available filter options for structured queries."""
     return {
         "ministry": [

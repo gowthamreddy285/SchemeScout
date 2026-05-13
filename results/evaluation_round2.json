@@ -1,0 +1,159 @@
+[
+  {
+    "id": 1,
+    "query": "I am a 19-year-old SC category student who wants to start a small business — which schemes apply to me?",
+    "answer": "[Error] Generation failed. Please try again.",
+    "citations": [
+      "Top Class SC Education",
+      "Stand-Up India",
+      "NEEDS"
+    ],
+    "chunks_used": 3
+  },
+  {
+    "id": 2,
+    "query": "Can a woman who already has a running business apply for Stand-Up India or is it only for new businesses?",
+    "answer": "[Error] Generation failed. Please try again.",
+    "citations": [
+      "Stand-Up India"
+    ],
+    "chunks_used": 2
+  },
+  {
+    "id": 3,
+    "query": "My family owns agricultural land but I want to start a tech startup — am I eligible for any schemes?",
+    "answer": "[Error] Generation failed. Please try again.",
+    "citations": [
+      "SMAM",
+      "SISFS",
+      "NEEDS"
+    ],
+    "chunks_used": 3
+  },
+  {
+    "id": 4,
+    "query": "What is the exact subsidy percentage under CLCSS for technology upgradation?",
+    "answer": "[Error] Generation failed. Please try again.",
+    "citations": [
+      "CLCSS",
+      "PMEGP",
+      "Namo Drone Didi"
+    ],
+    "chunks_used": 3
+  },
+  {
+    "id": 5,
+    "query": "How many installments does PM-KISAN give per year and when are they credited?",
+    "answer": "[Error] Generation failed. Please try again.",
+    "citations": [
+      "PM-KISAN"
+    ],
+    "chunks_used": 2
+  },
+  {
+    "id": 6,
+    "query": "What is the maximum project cost covered under PMEGP?",
+    "answer": "[Error] Generation failed. Please try again.",
+    "citations": [
+      "PMEGP",
+      "Namo Drone Didi"
+    ],
+    "chunks_used": 3
+  },
+  {
+    "id": 7,
+    "query": "I want to apply for Udyam registration — what happens after I get the certificate?",
+    "answer": "[Error] Generation failed. Please try again.",
+    "citations": [
+      "Udyam Registration",
+      "Public Procurement Policy",
+      "NSP"
+    ],
+    "chunks_used": 3
+  },
+  {
+    "id": 8,
+    "query": "What is the process to get DPIIT recognition and how long does it take?",
+    "answer": "[Error] Generation failed. Please try again.",
+    "citations": [
+      "SISFS",
+      "Startup India Initiative",
+      "PMEGP"
+    ],
+    "chunks_used": 3
+  },
+  {
+    "id": 9,
+    "query": "What schemes are available specifically for women in northeastern states of India?",
+    "answer": "[Error] Generation failed. Please try again.",
+    "citations": [
+      "Shakti Scheme",
+      "Ladki Bahin"
+    ],
+    "chunks_used": 3
+  },
+  {
+    "id": 10,
+    "query": "Are there any government schemes for handicraft artisans?",
+    "answer": "[Error] Generation failed. Please try again.",
+    "citations": [
+      "PM Vishwakarma",
+      "Skill India-Overall"
+    ],
+    "chunks_used": 3
+  },
+  {
+    "id": 11,
+    "query": "What support does the government give for cold storage infrastructure for farmers?",
+    "answer": "[Error] Generation failed. Please try again.",
+    "citations": [
+      "AIF",
+      "PM-KUSUM",
+      "UPS"
+    ],
+    "chunks_used": 3
+  },
+  {
+    "id": 12,
+    "query": "What is the difference between PMEGP and CLCSS?",
+    "answer": "[Error] Generation failed. Please try again.",
+    "citations": [
+      "CLCSS",
+      "PMEGP"
+    ],
+    "chunks_used": 3
+  },
+  {
+    "id": 13,
+    "query": "Is Mudra Yojana and PMMY the same thing?",
+    "answer": "[Error] Generation failed. Please try again.",
+    "citations": [
+      "MUDRA YOJANA GUIDELINES",
+      "Mudra Yojana",
+      "PMMY (Mudra)"
+    ],
+    "chunks_used": 3
+  },
+  {
+    "id": 14,
+    "query": "What are the income tax slabs for small business owners in India?",
+    "answer": "[Error] Generation failed. Please try again.",
+    "citations": [
+      "Startup India Initiative",
+      "Mudra-Micro",
+      "PMFBY"
+    ],
+    "chunks_used": 3
+  },
+  {
+    "id": 15,
+    "query": "How do I register a private limited company in India?",
+    "answer": "[Error] Generation failed. Please try again.",
+    "citations": [
+      "SISFS",
+      "PMEGP",
+      "MGNREGA"
+    ],
+    "chunks_used": 3
+  }
+]

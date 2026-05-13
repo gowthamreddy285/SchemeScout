@@ -1,87 +1,59 @@
-# SchemeScout 🛰️
-### Policy Intelligence, Simply Delivered.
+# 🚀 SchemeScout: High-Precision Indian Policy RAG
 
-SchemeScout is a production-grade **RAG (Retrieval-Augmented Generation)** platform designed to provide Indian citizens with instant, accurate, and verifiable information on government schemes. It bridges the gap between complex official documents and citizen needs through a high-fidelity intelligence layer.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![React 18](https://img.shields.io/badge/React-18-61DAFB?logo=react)](https://reactjs.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-05998b?logo=fastapi)](https://fastapi.tiangolo.com/)
+[![Tests](https://img.shields.io/badge/Tests-10%20Passed-brightgreen.svg)](tests/test_pipeline.py)
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)
-![React](https://img.shields.io/badge/react-18-61dafb.svg)
-
----
-
-## 🚀 Key Features
-
-- **500+ Scheme Library**: Deep knowledge across Central and State-level policies (Karnataka, TN, Maharashtra, Gujarat, Delhi).
-- **State-Aware Retrieval**: Intelligently boosts results based on the user's jurisdiction (e.g., searching for "scholarships" in Karnataka prioritizes regional SSP policies).
-- **Hybrid Search Engine**: Combines **ChromaDB Vector Search** for semantic meaning with **BM25 Keyword Search** for exact terminology.
-- **Expert Reranking**: Uses `BAAI/bge-reranker-base` to ensure the most relevant policy text is always prioritized for the LLM.
-- **Human-Centric UI**: An ultra-minimalist React interface focused on speed, clarity, and verifiable citations.
-- **Evidence Layer**: Direct links to official government guidelines and a growing library of flagship PDF sources.
+**SchemeScout** is a production-grade Retrieval-Augmented Generation (RAG) system built to navigate the complexity of 400+ Indian Government schemes. It delivers high-fidelity, cited answers by combining semantic search with state-of-the-art reranking.
 
 ---
 
-## 🛠️ Technical Stack
+## ✨ Key Features
 
-- **Frontend**: React (Vite), Tailwind CSS, Framer Motion, Lucide Icons.
-- **Backend**: FastAPI (Python), Uvicorn.
-- **Vector DB**: ChromaDB (persistent storage).
-- **Embeddings**: `BAAI/bge-small-en-v1.5` (HuggingFace).
-- **LLM**: Groq (Llama-3 70B) for high-speed, grounded generation.
-- **Data**: 300+ JSON structured scheme batches + Flagship PDF guidelines.
+- **🎯 High-Precision Retrieval**: Hybrid search (Vector + BM25) coupled with `BAAI/bge-reranker-base` for extreme accuracy.
+- **📑 Verifiable Citations**: Every answer includes direct links to official government PDFs and source portals.
+- **🇮🇳 State-Aware Intelligence**: Specialized boosting for state-specific policies (starting with Karnataka).
+- **🛡️ Hallucination Guardrails**: Multi-stage validation to ensure the LLM strictly adheres to provided policy context.
+- **🐳 One-Command Setup**: Fully dockerized environment for instant local deployment.
 
 ---
 
-## 📂 Project Structure
+## 🏗️ Architecture
 
-```text
-citizen-rag/
-├── frontend/             # React/Vite Application
-│   └── src/              # UI Components & App Logic
-├── backend/              # FastAPI Intelligence Layer
-│   ├── api/              # API Endpoints
-│   ├── retrieval/        # Hybrid Search & Reranking Engine
-│   ├── ingestion/        # Document Embedding Pipeline
-│   ├── generation/       # LLM Prompting & Formatting
-│   ├── data/             # Raw Policy Data (JSON & PDF)
-│   └── chroma_db/        # Persistent Vector Storage
-└── config.py             # Unified Project Configuration
+SchemeScout uses a multi-stage pipeline designed for precision over speed:
+
+1.  **Ingestion**: Recursive chunking of PDF guidelines and structured JSON data.
+2.  **Retrieval**: Two-stage retrieval (Vector + BM25) followed by a **BGE Cross-Encoder** reranker.
+3.  **Generation**: **Llama 3.3 (70B)** via Groq for sophisticated reasoning and cited report generation.
+
+> [!TIP]
+> Check out [ARCHITECTURE.md](./ARCHITECTURE.md) for a deep dive into our technical implementation.
+
+---
+
+## 🚀 Quick Start
+
+### Option A: Using Docker (Recommended)
+```bash
+docker-compose up --build
 ```
+- Frontend: `http://localhost:80`
+- API: `http://localhost:8000`
 
----
+### Option B: Manual Setup
 
-## ⚙️ Installation & Setup
-
-### 1. Prerequisites
-- Python 3.10+
-- Node.js & npm
-- API Keys: Groq (for generation)
-
-### 2. Backend Setup
+#### 1. Backend
 ```bash
 cd backend
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
+# Add your GROQ_API_KEY to .env
+python ingestion/embedder.py  # Index the data
+python -m api.main             # Start the API
 ```
 
-Create a `.env` file in the root:
-```env
-GROQ_API_KEY=your_key_here
-```
-
-### 3. Data Ingestion
-Populate the vector database with the 500+ scheme library:
-```bash
-python -m ingestion.embedder
-```
-
-### 4. Running the App
-**Start Backend:**
-```bash
-python -m api.main
-```
-
-**Start Frontend:**
+#### 2. Frontend
 ```bash
 cd frontend
 npm install
@@ -90,10 +62,37 @@ npm run dev
 
 ---
 
-## 🤝 Contributing
-SchemeScout is built for the public good. Contributions to scheme data, regional support, or UI improvements are welcome. Please open an issue or submit a PR.
+## 🧪 Systematic Evaluation
+
+We maintain a strict evaluation pipeline to prevent regression:
+- **Unit Tests**: 10 core tests covering dimension validation, retrieval hits, and API fallbacks.
+- **Benchmarking**: [scripts/evaluate.py](./scripts/evaluate.py) runs systematic tests across 15+ complex policy queries.
+
+Run tests:
+```bash
+pytest tests/ -v
+```
 
 ---
 
-## 📄 License
-This project is licensed under the MIT License.
+## 📂 Project Structure
+
+```text
+├── backend/
+│   ├── api/            # FastAPI Endpoints
+│   ├── ingestion/      # Data Embedder & PDF Parsers
+│   ├── retrieval/      # Hybrid Search & Reranking logic
+│   └── generation/     # LLM Prompt Engineering & Guardrails
+├── frontend/           # React + Tailwind Dashboard
+├── results/            # Historical Evaluation Data
+├── tests/              # Pytest Suite (10/10 Passed)
+└── ARCHITECTURE.md     # Technical Deep-Dive
+```
+
+---
+
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙌 Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
