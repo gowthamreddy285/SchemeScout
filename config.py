@@ -17,6 +17,7 @@ RERANKER_MODEL_NAME = "BAAI/bge-reranker-base"
 # LLM Configuration
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 # RAG Hyperparameters
 CHUNK_SIZE = 800

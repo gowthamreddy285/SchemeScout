@@ -7,7 +7,9 @@ import os
 import json
 import glob
 
-SCHEMES_DIR = r"c:\Users\gowtham\Desktop\citizen-rag\data\raw\schemes"
+# Use absolute paths relative to project root
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SCHEMES_DIR = os.path.join(BASE_DIR, "data", "raw", "schemes")
 
 # Map existing document_type values → clean section names
 SECTION_MAP = {

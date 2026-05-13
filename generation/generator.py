@@ -8,7 +8,7 @@ Supports OpenAI (GPT-4o-mini) and Anthropic (Claude Haiku) via env vars.
 
 import os
 from typing import List, Dict, Any
-from config import OPENAI_API_KEY, ANTHROPIC_API_KEY
+from config import OPENAI_API_KEY, ANTHROPIC_API_KEY, GROQ_API_KEY
 
 
 SYSTEM_PROMPT = """You are an expert Indian Government Policy Advisor.
@@ -77,8 +77,17 @@ class PolicyGenerator:
             except ImportError:
                 print("anthropic package not installed. Run: pip install anthropic")
 
+        if not self.client and GROQ_API_KEY:
+            try:
+                from groq import Groq
+                self.client = Groq(api_key=GROQ_API_KEY)
+                self.provider = "groq"
+                print("Generator initialized: Groq Llama-3-70b")
+            except ImportError:
+                print("groq package not installed. Run: pip install groq")
+
         if not self.client:
-            print("WARNING: No LLM API key found. Set OPENAI_API_KEY or ANTHROPIC_API_KEY in .env")
+            print("WARNING: No LLM API key found. Set OPENAI_API_KEY, ANTHROPIC_API_KEY, or GROQ_API_KEY in .env")
             print("Running in RETRIEVAL-ONLY mode (no generation).")
 
     def generate(self, query: str, chunks: List[Any]) -> Dict[str, Any]:
@@ -138,6 +147,18 @@ Answer (cite scheme names and ministry):"""
             )
             return response.content[0].text
 
+        elif self.provider == "groq":
+            response = self.client.chat.completions.create(
+                model="llama-3.3-70b-versatile",
+                messages=[
+                    {"role": "system", "content": SYSTEM_PROMPT},
+                    {"role": "user", "content": user_message}
+                ],
+                temperature=0.1,
+                max_tokens=500
+            )
+            return response.choices[0].message.content
+
         return "LLM provider not recognized."
 
 
@@ -157,7 +178,7 @@ if __name__ == "__main__":
     chunks = engine.retrieve(test_query)
     result = generator.generate(test_query, chunks)
 
-    print(f"Answer:\n{result['answer']}\n")
+    print(f"Answer:\n{result['answer'].encode('ascii', 'ignore').decode('ascii')}\n")
     print("Citations:")
     for c in result['citations']:
         print(f"  - {c['scheme_name']} | {c['ministry']} | {c['source_url']}")
