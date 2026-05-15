@@ -55,6 +55,13 @@ class SchemeScraper:
                 breadcrumb = ""
                 try: breadcrumb = await page.inner_text(".breadcrumb")
                 except: pass
+
+                # Save PDF version of the page
+                safe_name = "".join([c for c in name if c.isalpha() or c.isdigit() or c==' ']).rstrip().replace(" ", "_")
+                pdf_path = os.path.join(self.output_dir.replace("schemes/automated", "pdfs"), f"{safe_name}.pdf")
+                os.makedirs(os.path.dirname(pdf_path), exist_ok=True)
+                await page.pdf(path=pdf_path, format="A4")
+                print(f"  Saved PDF to {pdf_path}")
                 
                 # Extract Ministry & Category from breadcrumbs or meta
                 ministry = "Central Government" # Default
